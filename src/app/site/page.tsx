@@ -1,4 +1,4 @@
-export default function Home() {
+const Page = () => {
   return (
     <>
       <section className="h-full w-full pt-36 relative flex items-center justify-center flex-col">
@@ -9,7 +9,12 @@ export default function Home() {
             Agency
           </h1>
         </div>
+        <div className="flex justify-center items-center relative md:mt-[-70px]">
+          <div className="bottom-0 top-[50%] bg-gradient-to-t dark:from-background left-0 right-0 absolute"></div>
+        </div>
       </section>
     </>
   );
-}
+};
+
+export default Page;
